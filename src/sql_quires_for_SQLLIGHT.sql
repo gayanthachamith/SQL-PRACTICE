@@ -26,9 +26,12 @@ UPDATE tasks
 SET completed = 1
 WHERE id = 1;
 
+SELECT * FROM tasks;
 
 DELETE FROM tasks
 WHERE id = 3;
 
-DROP TABLE tasks;
+SELECT * FROM tasks;
+
+-- DROP TABLE tasks;
 
